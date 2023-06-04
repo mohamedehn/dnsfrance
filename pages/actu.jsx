@@ -3,13 +3,14 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 import { useEffect, useState } from 'react';
+import Footer from "@/components/Footer";
 
 const Actu = () => {
 
   return (
     <div className="pt-28 grid-cols-2">
-      <div className='sk-ww-linkedin-page-post grid-cols-2' data-embed-id='150085'></div>
-      <script src='https://widgets.sociablekit.com/linkedin-page-posts/widget.js' async defer></script>
+      <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/150085' frameBorder='0' width='100%' height='1000'></iframe>
+      <Footer/>
     </div>
   );
 };
