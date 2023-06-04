@@ -1,0 +1,36 @@
+
+[
+    {
+      "id": 1,
+      "title": "Conducteur de travaux",
+      "href": "#",
+      "description":
+        "Le conducteur de travaux est celui qui planifie et contrôle les travaux de construction, ou d'aménagements paysagers. Il encadre une équipe de techniciens et d'ouvriers avec l'aide d'un ou plusieurs chefs de chantier.",
+      "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.phd-consulting.com%2Frecrutement&psig=AOvVaw3PwYLGdxYnrSGS78rd8V8E&ust=1685966416561000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiX2bzIqf8CFQAAAAAdAAAAABAE",
+      "date": "02 Juin 2023",
+      "datetime": "2023-06-02",
+      "category": { "title": "FTTH", "href": "#" }
+    },
+    {
+      "id": 2,
+      "title": "Technicien mobile",
+      "href": "#",
+      "description":
+        "Le Technicien Télécom en Réseaux Mobile s'occupe de déployer les techniques de communication radio mobile (3G, 4G, 5G, FH, …) Il a les savoirs et savoir-faire spécifiques à la création et à la maintenance des infrastructures et des équipements des réseaux mobiles des opérateurs.",
+      "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.phd-consulting.com%2Frecrutement&psig=AOvVaw3PwYLGdxYnrSGS78rd8V8E&ust=1685966416561000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiX2bzIqf8CFQAAAAAdAAAAABAE",
+      "date": "02 Juin 2023",
+      "datetime": "2023-06-02",
+      "category": { "title": "Mobile", "href": "#" }
+    },
+    {
+      "id": 3,
+      "title": "Chef de projet",
+      "href": "#",
+      "description":
+        "Le chef de projet télécoms est un ingénieur qui anime une équipe de professionnels aux compétences multiples pour réaliser un produit (projet multimédia et télécoms) qui leur est confié. Il joue le rôle d'une interface entre les équipes éditoriales et informatiques et doit maîtriser les délais et les coûts. C’est lui qui définit l'architecture globale d'un nouveau produit (téléphone portable, visiophone, par exemple) et supervise la production.",
+      "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.phd-consulting.com%2Frecrutement&psig=AOvVaw3PwYLGdxYnrSGS78rd8V8E&ust=1685966416561000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiX2bzIqf8CFQAAAAAdAAAAABAE",
+      "date": "02 Juin 2023",
+      "datetime": "2023-06-02",
+      "category": { "title": "Projet", "href": "#" }
+    }
+  ]

@@ -2,26 +2,9 @@ import React from "react";
 import Image from "next/image";
 import working from "../public/assets/working.avif"
 import Footer from "@/components/Footer";
+import posts from "../public/data.json";
+import Link from "next/link";
 
-const posts = [
-    {
-      id: 1,
-      title: 'Conducteur de travaux',
-      href: '#',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      imageUrl: working,
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'FTTH', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-      },
-    },
-    // More posts...
-  ]
   
   export default function Jobs() {
     return (
@@ -41,6 +24,8 @@ const posts = [
                     src={post.imageUrl}
                     alt="/"
                     className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                    width={140}
+                    height={140}
                   /> */}
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
@@ -58,24 +43,12 @@ const posts = [
                   </div>
                   <div className="group relative">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                      <a href={post.href}>
+                      <Link href="/jobDescription/[id]" as="/jobDescription/1" key={post.id}>
                         <span className="absolute inset-0" />
                         {post.title}
-                      </a>
+                      </Link>
                     </h3>
                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
-                  </div>
-                  <div className="relative mt-8 flex items-center gap-x-4">
-                    {/* <Image src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-100" /> */}
-                    <div className="text-sm leading-6">
-                      <p className="font-semibold text-gray-900">
-                        <a href={post.author.href}>
-                          <span className="absolute inset-0" />
-                          {post.author.name}
-                        </a>
-                      </p>
-                      <p className="text-gray-600">{post.author.role}</p>
-                    </div>
                   </div>
                 </div>
               </article>

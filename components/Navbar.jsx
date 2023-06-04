@@ -4,23 +4,23 @@ import logo from "../public/assets/logo.png"
 
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Transition } from '@headlessui/react'
-import {ArrowPathIcon, Bars3Icon, ChartPieIcon, CursorArrowRaysIcon, FingerPrintIcon, SquaresPlusIcon, XMarkIcon,} from '@heroicons/react/24/outline'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import Link from "next/link";
+import {TagIcon, Bars3Icon, BoltIcon, RssIcon, SunIcon, SquaresPlusIcon, XMarkIcon,} from '@heroicons/react/24/outline'
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import Link from "next/link"; 
 
 const group = [
   { name: 'A Propos de DNS', 
     description: 'Tout savoir sur le groupe DNS', 
     href: '#about', 
-    icon: ChartPieIcon },
+    icon: TagIcon },
   { name: 'Green Energy Solutions', 
     description: "Conseils, études et travaux en matière d'économie énergétique", 
     href: '#ges', 
-    icon: CursorArrowRaysIcon },
+    icon: SunIcon },
   { name: 'DNS France', 
     description: "Conseil et d’ingénierie spécialisée dans la transition digitale & énergétique", 
     href: '#dns', 
-    icon: FingerPrintIcon },
+    icon: RssIcon },
   { name: 'DNS Foundation', 
     description: "DNS place l'humain au coeur de ses valeurs", 
     href: '/foundation', 
@@ -89,7 +89,7 @@ export default function Navbar() {
                       className="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                     >
                       <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                        <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-500" aria-hidden="true" />
                       </div>
                       <div className="flex-auto">
                         <a href={item.href} className="block font-semibold text-gray-900">
