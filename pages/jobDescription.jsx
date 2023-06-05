@@ -16,7 +16,7 @@ export default function JobDescription () {
         return(
             <div className="jobDetail mx-auto max-w-7xl px-4 sm:px-6">
                 
-                {
+                {/* {
                     job.filter((offer) => offer.id === id).map((data, index)=>(
                         <div className="" key={data.id - index}>
                             <div className="overflow-hidden bg-white shadow sm:rounded-lg mt-10">
@@ -64,7 +64,7 @@ export default function JobDescription () {
                             </div>
                         </div>
                     ))
-                }
+                } */}
             </div>
         )
 };    

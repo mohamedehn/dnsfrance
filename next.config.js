@@ -4,6 +4,6 @@ const nextConfig = {
     images: {
       path: "/",
   },
-};
+}
 
 module.exports = nextConfig;
