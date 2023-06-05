@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  //  images: {
-  //     path: "/",
-  // },
+    images: {
+       path: "/",
+   },
 
   // exportPathMap: async function () {
   //   const paths = {
