@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
     images: {
-       path: "/",
-   },
+      path: "/",
+  },
 
   // exportPathMap: async function () {
   //   const paths = {
@@ -15,6 +15,6 @@ const nextConfig = {
 
   //   return paths;
   // },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
