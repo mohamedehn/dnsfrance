@@ -6,11 +6,12 @@ import cera from "../public/assets/cera.png"
 import tdf from "../public/assets/tdf.png"
 import circet from "../public/assets/circet.jpeg"
 import bibby from "../public/assets/bibby.png"
+import Link from "next/link";
 
 
 export default function Clients() {
     return (
-      <div className="bg-white py-24 sm:py-32 h-screen">
+      <div className="bg-white py-24 sm:py-32 h-screen" id="clients">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
             <div className="mx-auto w-full max-w-xl lg:mx-0">
@@ -30,48 +31,60 @@ export default function Clients() {
               </div>
             </div>
             <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-28 lg:mx-0 lg:max-w-none lg:pl-8">
-              <Image
-                className="max-h-14 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
-                src={edf}
-                alt="edf"
-                width={105}
-                height={48}
-              />
-              <Image
-                className="max-h-12 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
-                src={cia}
-                alt="cia tp"
-                width={104}
-                height={48}
-              />
-              <Image
-                className="max-h-12 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
-                src={cera}
-                alt="cera"
-                width={140}
-                height={48}
-              />
-              <Image
-                className="max-h-16 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
-                src={tdf}
-                alt="tdf"
-                width={136}
-                height={48}
-              />
-              <Image
-                className="max-h-20 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
-                src={circet}
-                alt="circet"
-                width={158}
-                height={48}
-              />
-              <Image
-                className="max-h-20 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
-                src={bibby}
-                alt="bibby factor"
-                width={147}
-                height={48}
-              />
+              <Link href="https://www.edf.fr/groupe-edf/espaces-dedies/fournisseurs">
+                <Image
+                  className="max-h-14 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
+                  src={edf}
+                  alt="edf"
+                  width={105}
+                  height={48}
+                />
+              </Link>
+              <Link href="https://cia-tp.fr/">
+                <Image
+                  className="max-h-12 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
+                  src={cia}
+                  alt="cia tp"
+                  width={104}
+                  height={48}
+                />
+              </Link>
+              <Link href="https://www.caisse-epargne.fr/rhone-alpes/professionnels/">
+                <Image
+                  className="max-h-12 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
+                  src={cera}
+                  alt="cera"
+                  width={140}
+                  height={48}
+                />
+              </Link>
+              <Link href="https://www.tdf.fr/">
+                <Image
+                  className="max-h-16 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
+                  src={tdf}
+                  alt="tdf"
+                  width={136}
+                  height={48}
+                />
+              </Link>
+              <Link href="https://www.circet.fr/">
+                <Image
+                  className="max-h-20 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
+                  src={circet}
+                  alt="circet"
+                  width={158}
+                  height={48}
+                />
+              </Link>
+              <Link href="https://www.bibbyfactor.fr/">
+                <Image
+                  className="max-h-20 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
+                  src={bibby}
+                  alt="bibby factor"
+                  width={147}
+                  height={48}
+                />
+              </Link>
             </div>
           </div>
         </div>

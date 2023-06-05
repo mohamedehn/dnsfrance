@@ -30,6 +30,7 @@ const links = [
     { name: 'Nos pôles', href: '#poles' },
     // { name: 'Nos experts', href: '#experts' },
     { name: 'Nos valeurs', href: '#content' },
+    { name: 'Nos clients', href: '#clients' },
   ]
   const stats = [
     { name: 'Présent dans 4 pays', value: '4' },

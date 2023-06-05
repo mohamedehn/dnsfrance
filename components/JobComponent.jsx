@@ -47,24 +47,26 @@ export default function JobComponent() {
                 propose des formations régulières afin de permettre à nos équipes de monter en compétences et rester compétitifs sur le marché.
             </p>
           </div>
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10 pt-8">
-                <p>
+          <div className=" grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10 pt-8
+          mx-auto max-w-2xl lg:mx-0">
+                <p className="mx-auto max-w-2xl lg:mx-0">
                     Un process en 4 étapes
                 </p>
           </div>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-lg leading-8 text-gray-300 mx-auto max-w-2xl lg:mx-0 text-justify">
                 Vous échangez par téléphone avec un membre de l&apos;équipe.
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-lg leading-8 text-gray-300 mx-auto max-w-2xl lg:mx-0 text-justify">
                 Nous nous rencontrons et nous parlons sans filtres !
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-lg leading-8 text-gray-300 mx-auto max-w-2xl lg:mx-0 text-justify">
                 Une réponse vous ai apportée qu&apos;elle soit positive ou négative accompagnée de TIPS de nos experts.
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-lg leading-8 text-gray-300 mx-auto max-w-2xl lg:mx-0 text-justify">
                 Si la réponse est positive, vous entrée dans le parcours d&apos;intégration.
           </p>
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-xl font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10 pt-12">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-xl font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10 pt-6
+          mx-auto max-w-2xl lg:mx-0">
                 <p>
                     <Link href="/jobs" className="hover:text-blue-500">Nos opportunités <span aria-hidden="true">&rarr;</span></Link> 
                 </p>

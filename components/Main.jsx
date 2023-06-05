@@ -32,7 +32,7 @@ export default function Main() {
                 <p className="mt-6 text-xl leading-8">
                   IT - TELECOM - ENGINEERING
                 </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
+                <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
                   L&apos;étape la plus importante pour une entreprise, est de passer à la suivante
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">

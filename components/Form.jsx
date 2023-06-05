@@ -225,12 +225,12 @@ export default function Form (){
             {/* Contact form */}
             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-lg font-medium text-gray-900">Ecrivez-nous un message</h3>
-              <form onSubmit={handleSubmit} encType="multipart/form-data" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form onSubmit={handleSubmit} encType="multipart/form-data" className="mt-6 md:grid grid-cols-1 gap-y-6 md:grid-cols-2 sm:gap-x-8">
                 <div>
-                  <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
+                  <label htmlFor="first-name" className="block text-sm font-medium text-gray-900 mt-2">
                     Prénom
                   </label>
-                  <div className="mt-1">
+                  <div className="mt-3">
                     <input
                       type="text"
                       required
@@ -244,10 +244,10 @@ export default function Form (){
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="last-name" className="block text-sm font-medium text-gray-900">
+                  <label htmlFor="last-name" className="block text-sm font-medium text-gray-900 mt-2">
                     Nom
                   </label>
-                  <div className="mt-1">
+                  <div className="mt-3">
                     <input
                       type="text"
                       required
@@ -261,10 +261,10 @@ export default function Form (){
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-900">
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-900 mt-2">
                     Email
                   </label>
-                  <div className="mt-1">
+                  <div className="mt-3">
                     <input
                       id="email"
                       value={formDetails.email}
@@ -279,14 +279,14 @@ export default function Form (){
                 </div>
                 <div>
                   <div className="flex justify-between">
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-900">
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-900 mt-2">
                       Téléphone
                     </label>
-                    <span id="phone-optional" className="text-sm text-gray-500">
+                    <span id="phone-optional" className="text-sm text-gray-500 mt-2">
                       Optionnel
                     </span>
                   </div>
-                  <div className="mt-1">
+                  <div className="mt-3">
                     <input
                       type="text"
                       required
@@ -301,10 +301,10 @@ export default function Form (){
                   </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-900">
+                  <label htmlFor="subject" className="block text-sm font-medium text-gray-900 mt-2">
                     Objet
                   </label>
-                  <div className="mt-1">
+                  <div className="mt-3">
                     <input
                       type="text"
                       required
@@ -318,14 +318,14 @@ export default function Form (){
                 </div>
                 <div className="sm:col-span-2">
                   <div className="flex justify-between">
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-900">
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-900 mt-2">
                       Message
                     </label>
-                    <span id="message-max" className="text-sm text-gray-500">
+                    <span id="message-max" className="text-sm text-gray-500 mt-2">
                       Max. 500 caractères
                     </span>
                   </div>
-                  <div className="mt-1">
+                  <div className="mt-3">
                     <textarea
                       id="message"
                       required
@@ -357,7 +357,7 @@ export default function Form (){
                     type="submit"
                     onClick={handleClick}
                     disabled={!isCookiesAccepted} // permet de vérifier si l'utilisateur à accepté ou non les cookies
-                    className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-blue-500 
+                    className="mt-3 md:mt-0 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-blue-500 
                     px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 
                     focus:ring-[#9aabb2] focus:ring-offset-2 sm:w-auto"
                   >

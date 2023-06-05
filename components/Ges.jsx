@@ -5,7 +5,7 @@ import pv from "../public/assets/pv.jpeg"
 export default function Ges() {
 
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32 h-screen pt-[10rem]" id="ges">
+    <div className="overflow-hidden bg-white py-24 sm:py-32 h-screen pt-[10rem] md:pt-[20rem] lg:pt-[0rem]" id="ges">
       <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
           <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4">
@@ -32,7 +32,7 @@ export default function Ges() {
                 className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-blue-500 opacity-20 ring-1 ring-inset ring-white"
                 aria-hidden="true"
               /> */}
-              <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none hidden md:block">
+              <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none hidden lg:block">
                 <a href="https://greenenergysolutions.fr/">
                   <Image
                     src={pv}

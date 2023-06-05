@@ -17,11 +17,11 @@ export default function Footer (){
 
     return (
         <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto">
-            <div className="mt-8 items-center justify-between sm:flex pt-20">
+            <div className="mt-8 items-center justify-between sm:flex pt-0">
                 <div className="mt-4 sm:mt-0">
                     &copy; 2023 DNS France Tous droits réservés.
                 </div>
-                <div className="mt-6 sm:mt-0">
+                <div className="mt-3 sm:mt-0 pb-3 sm:pb-0">
                     <ul className="flex items-center space-x-4">
                         <li className="w-10 h-10 border rounded-full flex items-center justify-center">
                             <Link href="https://twitter.com/DataNetworkSol">
