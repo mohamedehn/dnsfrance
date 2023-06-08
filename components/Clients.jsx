@@ -31,7 +31,7 @@ export default function Clients() {
               </div>
             </div>
             <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-28 lg:mx-0 lg:max-w-none lg:pl-8">
-              <Link href="https://www.edf.fr/groupe-edf/espaces-dedies/fournisseurs">
+              {/* <Link href="https://www.edf.fr/groupe-edf/espaces-dedies/fournisseurs">
                 <Image
                   className="max-h-14 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
                   src={edf}
@@ -39,8 +39,8 @@ export default function Clients() {
                   width={105}
                   height={48}
                 />
-              </Link>
-              <Link href="https://cia-tp.fr/">
+              </Link> */}
+              {/* <Link href="https://cia-tp.fr/">
                 <Image
                   className="max-h-12 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"
                   src={cia}
@@ -48,7 +48,7 @@ export default function Clients() {
                   width={104}
                   height={48}
                 />
-              </Link>
+              </Link> */}
               <Link href="https://www.caisse-epargne.fr/rhone-alpes/professionnels/">
                 <Image
                   className="max-h-12 w-full object-contain object-left hover:scale-110 ease-in duration-300 cursor-pointer"

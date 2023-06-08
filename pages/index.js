@@ -59,7 +59,7 @@ export default function Home() {
       <PoleDefinition/>
       <Content/>
       <Clients/>
-      <Ges/>
+      {/* <Ges/> */}
       <Dns/>
       {/* <Consulting/> */}
       <JobComponent/>

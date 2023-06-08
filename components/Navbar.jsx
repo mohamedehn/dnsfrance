@@ -1,6 +1,8 @@
 import Image from "next/image"; //useful to import images with next without import it from any files like react
 import { useRouter } from "next/router";
 import logo from "../public/assets/logo.png"
+import dnsLogo from "../public/assets/dnsLogo.png"
+
 
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Transition } from '@headlessui/react'
@@ -21,10 +23,10 @@ const group = [
     description: "Conseil et d’ingénierie spécialisée dans la transition digitale & énergétique", 
     href: '#dns', 
     icon: RssIcon },
-  { name: 'DNS Foundation', 
-    description: "DNS place l'humain au coeur de ses valeurs", 
-    href: '/foundation', 
-    icon: SquaresPlusIcon },
+  // { name: 'DNS Foundation', 
+  //   description: "DNS place l'humain au coeur de ses valeurs", 
+  //   href: '/foundation', 
+  //   icon: SquaresPlusIcon },
     // { name: 'DNS IT', 
   //   description: 'Communication, développement web, SEO, social media et community management', 
   //   href: '#', 
@@ -47,7 +49,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Image className="h-16" src={logo} alt="/" width={130} height={64} />
+            <Image className="h-16 object-contain animate-pulse" src={dnsLogo} alt="/" width={130} height={64} />
           </Link>
         </div>
         <div className="flex lg:hidden">

@@ -1,6 +1,7 @@
 import react from "react"
 import Image from "next/image"
 import working from "../public/assets/working.avif"
+import dnsLogo from "../public/assets/dnsLogo.png"
 
 import { useState, useEffect } from 'react';
 import { motion, Variants } from 'framer-motion';
