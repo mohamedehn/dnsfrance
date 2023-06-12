@@ -2,20 +2,22 @@
 
 module.exports = {
   reactStrictMode: true,
+  basePath: '/dnsfrance',
   async rewrites() {
     return [
       {
         source: '/jobDescription/:id',
         destination: '/jobDescription',
       },
-      // {
-      //   images: {
-      //     path : "/"
-      //   }
-      // }
+      {
+        source: '/images/:path*', // Source correcte pour les réécritures des images
+        destination: '/:path*',
+      },
     ];
   },
 };
+
+
 
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {

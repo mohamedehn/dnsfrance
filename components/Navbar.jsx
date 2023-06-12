@@ -6,7 +6,7 @@ import dnsLogo from "../public/assets/dnsLogo.png"
 
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Transition } from '@headlessui/react'
-import {TagIcon, Bars3Icon, BoltIcon, RssIcon, SunIcon, SquaresPlusIcon, XMarkIcon,} from '@heroicons/react/24/outline'
+import {TagIcon, Bars3Icon, BriefcaseIcon, RssIcon, SunIcon, ClipboardDocumentIcon, XMarkIcon,} from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import Link from "next/link"; 
 
@@ -15,14 +15,22 @@ const group = [
     description: 'Tout savoir sur le groupe DNS', 
     href: '#about', 
     icon: TagIcon },
-  { name: 'Green Energy Solutions', 
-    description: "Conseils, études et travaux en matière d'économie énergétique", 
-    href: '#ges', 
+  { name: "Domaines d'activité", 
+    description: "IT, Telecom et Energies", 
+    href: '#poles', 
     icon: SunIcon },
+  { name: "Partenaires", 
+    description: "Devenez partenaire de DNS", 
+    href: '#clients', 
+    icon: ClipboardDocumentIcon },
   { name: 'DNS France', 
     description: "Conseil et d’ingénierie spécialisée dans la transition digitale & énergétique", 
     href: '#dns', 
     icon: RssIcon },
+    { name: 'Recrutement', 
+    description: "Rejoignez l'aventure DNS en consultant nos opportunités", 
+    href: '#jobs', 
+    icon: BriefcaseIcon },
   // { name: 'DNS Foundation', 
   //   description: "DNS place l'humain au coeur de ses valeurs", 
   //   href: '/foundation', 
@@ -49,7 +57,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Image className="h-16 object-contain animate-pulse" src={dnsLogo} alt="/" width={130} height={64} />
+            <Image className="h-16 object-contain" src={dnsLogo} alt="/" width={130} height={64} />
           </Link>
         </div>
         <div className="flex lg:hidden">

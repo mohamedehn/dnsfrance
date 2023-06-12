@@ -25,7 +25,7 @@ function Mentions() {
                         Le présent site est la propriété de DNS France <br/>
                         Siège social : 333 cours du 3ème millénaire 69791 Saint-Priest - Tél : 04 78 70 08 74 <br/>
                         Email: contact@datanetworksolutions.fr <br/>
-                        Entreprise/ Association créée en 2021 – Code 7120B - Convention IDCC 1596 - SIRET : 90317739200029 <br/>
+                        Entreprise/ Association créée en 2021 – Code 7120B - Convention IDCC 1596 - SIRET : 903 177 392 00037 <br/>
                         {/* Directeur de la publication : nom, fonction et entreprise <br/> */}
                         Toute reproduction même partielle est interdite sans autorisation préalable.
                     </p> 
@@ -35,8 +35,8 @@ function Mentions() {
                     <p className='text-lg leading-8'>
                         Création / Conception / Développement : <br/>
                         Nom entreprise : Coding Corp <br/>
-                        SIRET : en cours d&apos;immatriculation <br/> 
-                        Email : mohamed.ebarhmatin@gmail.com <br/>
+                        SIRET : 953 263 423 00014 <br/> 
+                        Email : contact@codingcorp.fr <br/>
                         Web : https://mohamedehn.github.io/portfolio <br/>
                         Hébergement : HOSTINGER
                     </p>
@@ -46,8 +46,8 @@ function Mentions() {
                         POLITIQUE DE CONFIDENTIALITÉ
                     </p>
                     <p className='text-lg leading-8'>
-                        Les internautes accédant au site www.nomentreprise.fr peuvent être amenés à fournir des informations nominatives ou 
-                        à caractère personnel dans le cadre des services proposés par l’association Prestat’air.
+                        Les internautes accédant au site https://datanetworksolutions.fr/ peuvent être amenés à fournir des informations nominatives ou 
+                        à caractère personnel dans le cadre des services proposés par DNS France.
                     </p>
                     <p className='text-lg leading-8'>
                         L’entreprise DNS France est responsable de traitement au sens du Règlement (UE) 2016/679 dit Règlement Général pour 

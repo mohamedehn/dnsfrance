@@ -27,7 +27,8 @@ export default function Main() {
 
             <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-[12.8rem] lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <Image className="h-36 object-contain w-[220px]" src={dnsLogo} alt="/" width={130} height={64} />
+                <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl pt-10">
                   Data Network Solutions
                 </h1>
                 <p className="mt-6 text-xl leading-8">

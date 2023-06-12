@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function JobComponent() {
     return (
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 h-screen md:pb-0 pb-[62rem]">
+      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 h-screen md:pb-0 pb-[62rem]" id="jobs">
         <Image
           src={about}
           alt=""
